@@ -1,0 +1,28 @@
+{
+  "extends": "expo/tsconfig.base",
+  "jsx": "react-jsx",
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "app/index.jsx",
+    "expo-env.d.ts",
+    "app/_layout.jsx",
+    "app/index.jsx",
+    "components/Login/login.jsx",
+    "constants/ScrollBar.jsx",
+    "constants/Game/audios.js",
+    "constants/Game/images.js",
+    "constants/Game/videos.js"
+  ]
+}
